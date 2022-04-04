@@ -1,0 +1,13 @@
+#!/bin/bash
+
+while true 
+do
+ echo "who are you?"
+ read name
+ if [[ $name == "Shawn" ]]
+ then
+  break
+ fi
+ ech "Hi, $name!"
+done
+echo "$name breaks the loop!"
