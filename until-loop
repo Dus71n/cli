@@ -1,0 +1,8 @@
+#!/bin/bash
+
+until [[ $name == "Shawn" ]]
+do
+ echo "Who are you?"
+ read $name
+done
+echo "He $name, I've been waiting for you!"
