@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for x in {1..10}  #Range {1..10..2}, step, seq
+do
+ echo $x
+done
