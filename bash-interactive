@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Are you cool?"
+read cool
+
+if [[ $cool == "yes" ]]
+then
+        echo "I think you are cool too!"
+else
+        echo "Well, hang out with the cool folks"
+fi
