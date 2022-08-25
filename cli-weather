@@ -1,0 +1,4 @@
+#The following will retreive info from /etc/timezone
+curl wttr.in
+#Otherwise, you can append your city
+curl wttr.in/<location>
