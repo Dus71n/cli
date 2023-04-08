@@ -1,2 +1,4 @@
-# cli
-bash scripts and other cli stuff
+#README #! /bin /bash
+
+These resources are for enumerating and utilizing network devices.
+
